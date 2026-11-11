@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/1e617a5823444f5ea8bb6f50c6782255/artifacts
+end_time: 1794411739668
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 1e617a5823444f5ea8bb6f50c6782255
+run_name: lyrical-zebra-819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411738202
+status: 3
+tags: []
+user_id: root
