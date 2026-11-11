@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/3760e2a1aec04c918b11b225b20bf7b9/artifacts
+end_time: 1794411710438
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 3760e2a1aec04c918b11b225b20bf7b9
+run_name: likeable-crow-617
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411708987
+status: 3
+tags: []
+user_id: root
