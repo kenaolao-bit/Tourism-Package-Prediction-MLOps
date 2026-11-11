@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/3566b3b96afe4470a58f2aee2e3fe1e5/artifacts
+end_time: 1794411686980
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 3566b3b96afe4470a58f2aee2e3fe1e5
+run_name: gifted-mule-110
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411685522
+status: 3
+tags: []
+user_id: root
