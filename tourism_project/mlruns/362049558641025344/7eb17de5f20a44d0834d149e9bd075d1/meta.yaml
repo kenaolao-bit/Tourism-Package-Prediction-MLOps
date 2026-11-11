@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/7eb17de5f20a44d0834d149e9bd075d1/artifacts
+end_time: 1794411655727
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 7eb17de5f20a44d0834d149e9bd075d1
+run_name: redolent-sloth-651
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411654275
+status: 3
+tags: []
+user_id: root
