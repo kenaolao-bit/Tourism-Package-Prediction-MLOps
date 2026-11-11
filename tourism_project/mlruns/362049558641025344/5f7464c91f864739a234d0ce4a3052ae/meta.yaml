@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/5f7464c91f864739a234d0ce4a3052ae/artifacts
+end_time: 1794409524780
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 5f7464c91f864739a234d0ce4a3052ae
+run_name: bald-hawk-809
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409523301
+status: 3
+tags: []
+user_id: root
