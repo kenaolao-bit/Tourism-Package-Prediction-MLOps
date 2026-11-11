@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/b3f336a843af4ea09af6184637e357cf/artifacts
+end_time: 1794409546563
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: b3f336a843af4ea09af6184637e357cf
+run_name: languid-crab-553
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409545116
+status: 3
+tags: []
+user_id: root
