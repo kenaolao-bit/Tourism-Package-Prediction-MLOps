@@ -1,0 +1,19 @@
+{
+    "dataset": "tourism.csv",
+    "total_observations": 4128,
+    "number_of_features": 19,
+    "target": "ProdTaken",
+    "test_size": 0.2,
+    "random_state": 42,
+    "train_observations": 3302,
+    "test_observations": 826,
+    "train_target_distribution_percent": {
+        "0": 80.68,
+        "1": 19.32
+    },
+    "test_target_distribution_percent": {
+        "0": 80.75,
+        "1": 19.25
+    },
+    "stratification": "PASS"
+}
