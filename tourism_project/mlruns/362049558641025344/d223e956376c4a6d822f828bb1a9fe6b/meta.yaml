@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/d223e956376c4a6d822f828bb1a9fe6b/artifacts
+end_time: 1794409526591
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: d223e956376c4a6d822f828bb1a9fe6b
+run_name: charming-fawn-724
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409525147
+status: 3
+tags: []
+user_id: root
