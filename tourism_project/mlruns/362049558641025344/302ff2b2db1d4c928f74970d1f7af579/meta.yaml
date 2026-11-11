@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/302ff2b2db1d4c928f74970d1f7af579/artifacts
+end_time: 1794409475108
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 302ff2b2db1d4c928f74970d1f7af579
+run_name: glamorous-bass-100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409473666
+status: 3
+tags: []
+user_id: root
