@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/e329c5ffa84f433691f651cb2bff7e95/artifacts
+end_time: 1794411730629
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: e329c5ffa84f433691f651cb2bff7e95
+run_name: upset-dolphin-342
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411729187
+status: 3
+tags: []
+user_id: root
