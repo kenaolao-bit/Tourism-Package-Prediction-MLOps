@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/cc5fb5703a2e4792b46f19cc34e0d29f/artifacts
+end_time: 1794409500896
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: cc5fb5703a2e4792b46f19cc34e0d29f
+run_name: vaunted-grub-535
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409499444
+status: 3
+tags: []
+user_id: root
