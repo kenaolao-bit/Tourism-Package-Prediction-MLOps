@@ -1,0 +1,14 @@
+{
+    "dataset": "tourism.csv",
+    "rows": 4128,
+    "columns": 21,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "target": "ProdTaken",
+    "target_distribution_percent": {
+        "0": 80.69,
+        "1": 19.31
+    },
+    "sha256": "3f891d5fbaa3a38a4e74d4cc08be7ce6261f9c193c71535508deec9617dca4da",
+    "schema_validation": "PASS"
+}
