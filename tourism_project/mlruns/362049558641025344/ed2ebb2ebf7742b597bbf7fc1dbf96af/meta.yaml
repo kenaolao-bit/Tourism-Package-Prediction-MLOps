@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/ed2ebb2ebf7742b597bbf7fc1dbf96af/artifacts
+end_time: 1794409517414
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: ed2ebb2ebf7742b597bbf7fc1dbf96af
+run_name: skittish-mule-897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409515959
+status: 3
+tags: []
+user_id: root
