@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/d01e125f60c94c2fb041544acd10c7a3/artifacts
+end_time: 1794411651949
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: d01e125f60c94c2fb041544acd10c7a3
+run_name: righteous-trout-883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411650494
+status: 3
+tags: []
+user_id: root
