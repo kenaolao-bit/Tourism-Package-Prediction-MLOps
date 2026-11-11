@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/f1e9508c6e0d4da6ba77b33555ce91c1/artifacts
+end_time: 1794409439715
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: f1e9508c6e0d4da6ba77b33555ce91c1
+run_name: rebellious-shoat-291
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409438165
+status: 3
+tags: []
+user_id: root
