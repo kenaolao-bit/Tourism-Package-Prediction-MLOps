@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/b6a81b33a3114322a392dfc568213159/artifacts
+end_time: 1794411667050
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: b6a81b33a3114322a392dfc568213159
+run_name: smiling-boar-945
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411665616
+status: 3
+tags: []
+user_id: root
