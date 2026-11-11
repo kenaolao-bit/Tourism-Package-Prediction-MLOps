@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/165c0f8271ef437097a4cfb4203fb096/artifacts
+end_time: 1794409555085
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 165c0f8271ef437097a4cfb4203fb096
+run_name: crawling-calf-684
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409392922
+status: 3
+tags: []
+user_id: root
