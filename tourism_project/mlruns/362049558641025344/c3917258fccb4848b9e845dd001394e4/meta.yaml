@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/c3917258fccb4848b9e845dd001394e4/artifacts
+end_time: 1794409462407
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: c3917258fccb4848b9e845dd001394e4
+run_name: youthful-horse-960
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409460880
+status: 3
+tags: []
+user_id: root
