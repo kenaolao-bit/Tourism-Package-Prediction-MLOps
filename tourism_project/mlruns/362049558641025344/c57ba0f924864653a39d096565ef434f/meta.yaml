@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/c57ba0f924864653a39d096565ef434f/artifacts
+end_time: 1794409521088
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: c57ba0f924864653a39d096565ef434f
+run_name: crawling-ox-651
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409519637
+status: 3
+tags: []
+user_id: root
