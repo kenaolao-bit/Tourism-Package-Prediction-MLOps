@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/fdc852944b184b89bc086ca84ed458fc/artifacts
+end_time: 1794411685156
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: fdc852944b184b89bc086ca84ed458fc
+run_name: polite-fly-463
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411683689
+status: 3
+tags: []
+user_id: root
