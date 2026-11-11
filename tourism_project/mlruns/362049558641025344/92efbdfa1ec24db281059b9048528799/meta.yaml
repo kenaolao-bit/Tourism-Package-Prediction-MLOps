@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/92efbdfa1ec24db281059b9048528799/artifacts
+end_time: 1794411694182
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 92efbdfa1ec24db281059b9048528799
+run_name: big-penguin-154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411692739
+status: 3
+tags: []
+user_id: root
