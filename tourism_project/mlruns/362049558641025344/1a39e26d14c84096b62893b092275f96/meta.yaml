@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/1a39e26d14c84096b62893b092275f96/artifacts
+end_time: 1794411743319
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 1a39e26d14c84096b62893b092275f96
+run_name: vaunted-wasp-582
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411741876
+status: 3
+tags: []
+user_id: root
