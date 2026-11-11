@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/cca51ad169bc4c919f34b686644b947a/artifacts
+end_time: 1794409537506
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: cca51ad169bc4c919f34b686644b947a
+run_name: enthused-bat-347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409536045
+status: 3
+tags: []
+user_id: root
