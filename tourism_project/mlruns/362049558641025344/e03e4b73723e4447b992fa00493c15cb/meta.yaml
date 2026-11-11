@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/e03e4b73723e4447b992fa00493c15cb/artifacts
+end_time: 1794411725171
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: e03e4b73723e4447b992fa00493c15cb
+run_name: thoughtful-cub-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411723697
+status: 3
+tags: []
+user_id: root
