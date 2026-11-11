@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/318a4fbd02b74ae9af482560aaa17754/artifacts
+end_time: 1794409495424
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 318a4fbd02b74ae9af482560aaa17754
+run_name: debonair-snipe-55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409493960
+status: 3
+tags: []
+user_id: root
