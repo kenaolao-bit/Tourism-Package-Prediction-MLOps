@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/b00557aeeaec4c93a23d538b651b274c/artifacts
+end_time: 1794409509995
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: b00557aeeaec4c93a23d538b651b274c
+run_name: luxuriant-robin-500
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409508523
+status: 3
+tags: []
+user_id: root
