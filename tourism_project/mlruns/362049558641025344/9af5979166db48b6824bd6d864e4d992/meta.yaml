@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/9af5979166db48b6824bd6d864e4d992/artifacts
+end_time: 1794411699637
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 9af5979166db48b6824bd6d864e4d992
+run_name: silent-bear-151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411698175
+status: 3
+tags: []
+user_id: root
