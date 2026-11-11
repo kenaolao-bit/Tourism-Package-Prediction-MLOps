@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/b93cafe8e7c0481998529c3e0edd0672/artifacts
+end_time: 1794411663395
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: b93cafe8e7c0481998529c3e0edd0672
+run_name: burly-foal-587
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411661790
+status: 3
+tags: []
+user_id: root
