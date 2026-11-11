@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/3de9eceb899c4fa9b661622b31e62ea7/artifacts
+end_time: 1794409513650
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 3de9eceb899c4fa9b661622b31e62ea7
+run_name: angry-shark-307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409512202
+status: 3
+tags: []
+user_id: root
