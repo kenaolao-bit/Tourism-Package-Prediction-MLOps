@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/9b476153bca74c0a89b3245b599dc7cf/artifacts
+end_time: 1794411727002
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 9b476153bca74c0a89b3245b599dc7cf
+run_name: crawling-newt-301
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411725537
+status: 3
+tags: []
+user_id: root
