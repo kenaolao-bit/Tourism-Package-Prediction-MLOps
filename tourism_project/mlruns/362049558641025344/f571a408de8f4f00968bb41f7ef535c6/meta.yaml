@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/f571a408de8f4f00968bb41f7ef535c6/artifacts
+end_time: 1794409456902
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: f571a408de8f4f00968bb41f7ef535c6
+run_name: abrasive-penguin-800
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409455398
+status: 3
+tags: []
+user_id: root
