@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/7462dd7ad1544e8daec987d0471c4004/artifacts
+end_time: 1794411637288
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 7462dd7ad1544e8daec987d0471c4004
+run_name: sincere-hog-624
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411635854
+status: 3
+tags: []
+user_id: root
