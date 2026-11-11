@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/13d149237ecb46f2b12e9e735654bc77/artifacts
+end_time: 1794409478747
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 13d149237ecb46f2b12e9e735654bc77
+run_name: receptive-crow-982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409477296
+status: 3
+tags: []
+user_id: root
