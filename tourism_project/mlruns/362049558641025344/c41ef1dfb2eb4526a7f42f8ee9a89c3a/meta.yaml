@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/c41ef1dfb2eb4526a7f42f8ee9a89c3a/artifacts
+end_time: 1794411697811
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: c41ef1dfb2eb4526a7f42f8ee9a89c3a
+run_name: redolent-gnat-867
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411696345
+status: 3
+tags: []
+user_id: root
