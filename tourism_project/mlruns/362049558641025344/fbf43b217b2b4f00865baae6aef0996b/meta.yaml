@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/fbf43b217b2b4f00865baae6aef0996b/artifacts
+end_time: 1794411741513
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: fbf43b217b2b4f00865baae6aef0996b
+run_name: glamorous-gnu-803
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411740045
+status: 3
+tags: []
+user_id: root
