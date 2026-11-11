@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/231ee8f885c24152acb4978454aeb671/artifacts
+end_time: 1794411670690
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 231ee8f885c24152acb4978454aeb671
+run_name: efficient-chimp-234
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411669224
+status: 3
+tags: []
+user_id: root
