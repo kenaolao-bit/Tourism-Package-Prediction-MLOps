@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/9a59e69d86ed4426868222e1e0ecaac7/artifacts
+end_time: 1794409480565
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 9a59e69d86ed4426868222e1e0ecaac7
+run_name: unique-lark-546
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409479110
+status: 3
+tags: []
+user_id: root
