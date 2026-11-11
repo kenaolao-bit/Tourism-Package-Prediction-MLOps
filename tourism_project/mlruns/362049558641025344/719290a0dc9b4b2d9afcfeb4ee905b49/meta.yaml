@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/719290a0dc9b4b2d9afcfeb4ee905b49/artifacts
+end_time: 1794409515594
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 719290a0dc9b4b2d9afcfeb4ee905b49
+run_name: shivering-yak-260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794409514013
+status: 3
+tags: []
+user_id: root
