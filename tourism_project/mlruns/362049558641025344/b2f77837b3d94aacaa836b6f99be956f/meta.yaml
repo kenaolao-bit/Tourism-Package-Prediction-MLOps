@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/b2f77837b3d94aacaa836b6f99be956f/artifacts
+end_time: 1794411737836
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: b2f77837b3d94aacaa836b6f99be956f
+run_name: bittersweet-tern-366
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411736401
+status: 3
+tags: []
+user_id: root
