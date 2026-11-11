@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/dc36a57d55cb43b1ad87f75e37219f91/artifacts
+end_time: 1794411688782
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: dc36a57d55cb43b1ad87f75e37219f91
+run_name: serious-foal-755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411687340
+status: 3
+tags: []
+user_id: root
