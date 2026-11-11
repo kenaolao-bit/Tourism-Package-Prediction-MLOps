@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/0198c7bc07824659ab703a6ace6a29df/artifacts
+end_time: 1794411734240
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 0198c7bc07824659ab703a6ace6a29df
+run_name: amusing-grub-160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411732799
+status: 3
+tags: []
+user_id: root
