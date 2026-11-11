@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/58e11ecd0b014e37addc5a76f1ab66b7/artifacts
+end_time: 1794411650134
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 58e11ecd0b014e37addc5a76f1ab66b7
+run_name: crawling-mare-28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411648699
+status: 3
+tags: []
+user_id: root
