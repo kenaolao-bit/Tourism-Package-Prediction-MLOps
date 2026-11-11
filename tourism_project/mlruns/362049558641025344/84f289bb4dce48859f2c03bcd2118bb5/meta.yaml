@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/84f289bb4dce48859f2c03bcd2118bb5/artifacts
+end_time: 1794411639076
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 84f289bb4dce48859f2c03bcd2118bb5
+run_name: luxuriant-shark-732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411637649
+status: 3
+tags: []
+user_id: root
