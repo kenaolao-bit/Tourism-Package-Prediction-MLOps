@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/f6bdfa3649e24ec5b3d71badca2b4e3a/artifacts
+end_time: 1794411676110
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: f6bdfa3649e24ec5b3d71badca2b4e3a
+run_name: placid-bird-517
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794411674674
+status: 3
+tags: []
+user_id: root
