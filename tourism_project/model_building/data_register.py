@@ -10,7 +10,7 @@ import pandas as pd
 # 1. PROJECT CONFIGURATION
 # ============================================================
 
-PROJECT_DIR = Path("/content/tourism_project")
+PROJECT_DIR = Path(__file__).resolve().parents[1]
 RAW_PATH = PROJECT_DIR / "data" / "tourism.csv"
 REPORT_DIR = PROJECT_DIR / "model_building" / "reports"
 
