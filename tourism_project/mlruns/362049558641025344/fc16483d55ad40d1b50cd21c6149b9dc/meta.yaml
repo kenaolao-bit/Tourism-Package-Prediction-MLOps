@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/fc16483d55ad40d1b50cd21c6149b9dc/artifacts
+end_time: 1794591602599
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: fc16483d55ad40d1b50cd21c6149b9dc
+run_name: abundant-snipe-577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794591602273
+status: 3
+tags: []
+user_id: root
