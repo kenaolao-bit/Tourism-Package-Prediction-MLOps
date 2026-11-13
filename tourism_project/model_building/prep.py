@@ -23,7 +23,7 @@ import json
 # >>> COMPLEMENT
 # Define the directories used to organize project files.
 
-PROJECT_DIR = Path("/content/tourism_project")
+PROJECT_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_DIR / "data"
 MODEL_DIR = PROJECT_DIR / "model_building"
 REPORT_DIR = MODEL_DIR / "reports"
@@ -39,7 +39,7 @@ REPORT_DIR.mkdir(parents=True, exist_ok=True)
 # ============================================================
 
 df = pd.read_csv(
-    "/content/tourism_project/data/tourism.csv"
+    DATA_DIR / "tourism.csv"
 )  # complete the code: path to the registered tourism.csv inside the data folder
 
 
@@ -47,8 +47,16 @@ df = pd.read_csv(
 # 4. DATA PREPARATION
 # ============================================================
 
+# >>> COMPLEMENT
+# Remove technical identifiers before creating the features.
+technical_columns = ["CustomerID", "Unnamed: 0"]
+columns_to_drop = [
+    col for col in technical_columns if col in df.columns
+]
+# <<< FIN COMPLEMENT
+
 df.drop(
-    columns=["CustomerID"],
+    columns=columns_to_drop,
     inplace=True
 )  # complete the code: drop the customer identifier column, it is not a predictive feature
 
@@ -78,6 +86,11 @@ if not set(y.unique()).issubset({0, 1}):
 
 if len(X) != len(y):
     raise ValueError("Features and target have inconsistent dimensions.")
+
+# Verify the expected predictive feature count.
+assert X.shape[1] == 18, (
+    f"Expected 18 predictive features, found {X.shape[1]}."
+)
 
 # <<< FIN COMPLEMENT
 
@@ -115,10 +128,10 @@ assert len(Xtrain) + len(Xtest) == len(df)
 # 6. SAVING PREPARED DATA
 # ============================================================
 
-Xtrain.to_csv("Xtrain.csv", index=False)
-Xtest.to_csv("Xtest.csv", index=False)
-ytrain.to_csv("ytrain.csv", index=False)
-ytest.to_csv("ytest.csv", index=False)
+Xtrain.to_csv(PROJECT_DIR / "Xtrain.csv", index=False)
+Xtest.to_csv(PROJECT_DIR / "Xtest.csv", index=False)
+ytrain.to_csv(PROJECT_DIR / "ytrain.csv", index=False)
+ytest.to_csv(PROJECT_DIR / "ytest.csv", index=False)
 
 
 # >>> COMPLEMENT
@@ -197,11 +210,14 @@ print("\nTesting target distribution (%):")
 print(test_distribution.round(2))
 
 print("\nDATA PREPARATION: SUCCESS")
+print("Project directory:", PROJECT_DIR)
+print("Training features:", Xtrain.shape[1])
 print("Preparation report:", report_path)
 
-# >>> COMPLEMENT
-# Remove the technical index column from the dataset.
-df.drop(columns=["Unnamed: 0"], inplace=True)
-# <<< FIN COMPLEMENT
+# Verify all generated files.
+for filename in ["Xtrain.csv", "Xtest.csv", "ytrain.csv", "ytest.csv"]:
+    output_path = PROJECT_DIR / filename
+    assert output_path.exists(), f"Missing output file: {output_path}"
+    print("Verified:", output_path)
 
 # <<< FIN COMPLEMENT
