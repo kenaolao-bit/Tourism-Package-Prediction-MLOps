@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/327f6aa67eee4a1cb3788051b7dcc8a4/artifacts
+end_time: 1794592143875
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 327f6aa67eee4a1cb3788051b7dcc8a4
+run_name: adaptable-grouse-243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794592143480
+status: 3
+tags: []
+user_id: root
