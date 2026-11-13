@@ -27,7 +27,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install Dependencies
-        run: pip install -r tourism_project/deployment/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tourism_project/deployment/requirements.txt
 
       # >>> COMPLEMENT
       # Make the Colab project path available on the GitHub runner.
@@ -62,7 +64,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install Dependencies
-        run: pip install -r tourism_project/deployment/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tourism_project/deployment/requirements.txt
 
       # >>> COMPLEMENT
       # Restore the project path in this independent job.
@@ -111,7 +115,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install Dependencies
-        run: pip install -r tourism_project/deployment/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tourism_project/deployment/requirements.txt
+          python -m pip install mlflow==3.0.1
 
       - name: Download Train Test Splits
         uses: actions/download-artifact@v4
@@ -120,11 +127,20 @@ jobs:
           path: tourism_project
 
       # >>> COMPLEMENT
-      # Start a local MLflow tracking server for this job.
+      # Create local directories for MLflow tracking and artifacts.
+      - name: Prepare MLflow Directories
+        working-directory: tourism_project
+        run: |
+          mkdir -p mlruns
+          touch mlflow.log
+      # <<< FIN COMPLEMENT
+
+      # >>> COMPLEMENT
+      # Start a local MLflow tracking server.
       - name: Start MLflow Server
         working-directory: tourism_project
         run: |
-          nohup mlflow server \
+          nohup python -m mlflow server \
             --host 127.0.0.1 \
             --port 5000 \
             --backend-store-uri sqlite:///mlflow.db \
@@ -164,12 +180,31 @@ jobs:
                   print("mlflow.log was not created.")
 
               raise SystemExit(1)
-          PY
       # <<< FIN COMPLEMENT
 
       - name: Model Building
         working-directory: tourism_project
         run: python model_building/train.py
+
+      # >>> COMPLEMENT
+      # Verify that the trained model was generated.
+      - name: Verify Trained Model
+        working-directory: tourism_project
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          model_path = Path("deployment/model.pkl")
+
+          if not model_path.exists():
+              raise FileNotFoundError(
+                  f"Trained model not found: {model_path}"
+              )
+
+          print("MODEL GENERATION: SUCCESS")
+          print("Model size:", model_path.stat().st_size, "bytes")
+          PY
+      # <<< FIN COMPLEMENT
 
       - name: Commit Trained Model
         run: |
