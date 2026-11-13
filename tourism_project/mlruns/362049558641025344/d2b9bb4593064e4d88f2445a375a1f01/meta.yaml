@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/d2b9bb4593064e4d88f2445a375a1f01/artifacts
+end_time: 1794592146306
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: d2b9bb4593064e4d88f2445a375a1f01
+run_name: efficient-zebra-870
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794592145904
+status: 3
+tags: []
+user_id: root
