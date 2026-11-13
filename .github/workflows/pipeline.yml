@@ -1,5 +1,4 @@
 
-
 name: Tourism Project Pipeline
 
 on:
@@ -30,6 +29,14 @@ jobs:
       - name: Install Dependencies
         run: pip install -r tourism_project/deployment/requirements.txt
 
+      # >>> COMPLEMENT
+      # Make the Colab project path available on the GitHub runner.
+      - name: Configure Project Path
+        run: |
+          sudo mkdir -p /content
+          sudo ln -sfn "$GITHUB_WORKSPACE/tourism_project" /content/tourism_project
+      # <<< FIN COMPLEMENT
+
       - name: Register Dataset
         run: python tourism_project/model_building/data_register.py
 
@@ -57,6 +64,14 @@ jobs:
       - name: Install Dependencies
         run: pip install -r tourism_project/deployment/requirements.txt
 
+      # >>> COMPLEMENT
+      # Restore the project path in this independent job.
+      - name: Configure Project Path
+        run: |
+          sudo mkdir -p /content
+          sudo ln -sfn "$GITHUB_WORKSPACE/tourism_project" /content/tourism_project
+      # <<< FIN COMPLEMENT
+
       - name: Download Registered Dataset
         uses: actions/download-artifact@v4
         with:
@@ -81,7 +96,7 @@ jobs:
   # JOB 3: MODEL TRAINING
   # ============================================================
 
-  model-traning:
+  model-training:
     needs: data-prep
     runs-on: ubuntu-latest
 
@@ -104,6 +119,8 @@ jobs:
           name: data-splits
           path: tourism_project
 
+      # >>> COMPLEMENT
+      # Start a local MLflow tracking server for this job.
       - name: Start MLflow Server
         working-directory: tourism_project
         run: |
@@ -113,12 +130,42 @@ jobs:
             --backend-store-uri sqlite:///mlflow.db \
             --default-artifact-root ./mlruns \
             > mlflow.log 2>&1 &
-          sleep 5
 
+          echo $! > mlflow.pid
+          sleep 10
+
+      # Verify server availability and display logs if startup fails.
       - name: Verify MLflow Server
+        working-directory: tourism_project
         run: |
-          python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/health', timeout=10)"
-          echo "MLflow server is responding."
+          python - <<'PY'
+          import time
+          import urllib.request
+
+          url = "http://127.0.0.1:5000/health"
+
+          for attempt in range(10):
+              try:
+                  response = urllib.request.urlopen(url, timeout=5)
+                  print("MLflow server is responding.")
+                  print("HTTP status:", response.status)
+                  break
+              except Exception as error:
+                  print(f"Attempt {attempt + 1}/10: {error}")
+                  time.sleep(3)
+          else:
+              print("MLflow server failed to start.")
+              print("MLflow server logs:")
+
+              try:
+                  with open("mlflow.log", encoding="utf-8") as file:
+                      print(file.read())
+              except FileNotFoundError:
+                  print("mlflow.log was not created.")
+
+              raise SystemExit(1)
+          PY
+      # <<< FIN COMPLEMENT
 
       - name: Model Building
         working-directory: tourism_project
