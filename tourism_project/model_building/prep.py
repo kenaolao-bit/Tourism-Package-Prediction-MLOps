@@ -43,6 +43,21 @@ df = pd.read_csv(
 )  # complete the code: path to the registered tourism.csv inside the data folder
 
 
+# >>> COMPLEMENT
+# Validate that the dataset has been loaded correctly.
+
+if df.empty:
+    raise ValueError("The tourism dataset is empty.")
+
+if df.columns.duplicated().any():
+    raise ValueError("Duplicate column names detected.")
+
+print("Dataset loaded successfully.")
+print("Original dataset dimensions:", df.shape)
+
+# <<< FIN COMPLEMENT
+
+
 # ============================================================
 # 4. DATA PREPARATION
 # ============================================================
@@ -53,6 +68,11 @@ technical_columns = ["CustomerID", "Unnamed: 0"]
 columns_to_drop = [
     col for col in technical_columns if col in df.columns
 ]
+
+# Verify that the target column exists.
+if "ProdTaken" not in df.columns:
+    raise ValueError("Target column ProdTaken is missing.")
+
 # <<< FIN COMPLEMENT
 
 df.drop(
@@ -92,6 +112,13 @@ assert X.shape[1] == 18, (
     f"Expected 18 predictive features, found {X.shape[1]}."
 )
 
+# Verify that no technical identifier remains in the features.
+assert "CustomerID" not in X.columns
+assert "Unnamed: 0" not in X.columns
+
+print("Technical identifiers removed successfully.")
+print("Number of predictive features:", X.shape[1])
+
 # <<< FIN COMPLEMENT
 
 
@@ -120,6 +147,9 @@ assert set(ytest.unique()) == {0, 1}, "Missing class in testing data."
 # Verify that no observations were lost during the split.
 
 assert len(Xtrain) + len(Xtest) == len(df)
+
+# Verify feature consistency between training and testing datasets.
+assert list(Xtrain.columns) == list(Xtest.columns)
 
 # <<< FIN COMPLEMENT
 
