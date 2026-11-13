@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/362049558641025344/5174efcfc4104cb9ae567177fdb57fe4/artifacts
+end_time: 1794592142386
+entry_point_name: ''
+experiment_id: '362049558641025344'
+lifecycle_stage: active
+run_id: 5174efcfc4104cb9ae567177fdb57fe4
+run_name: trusting-seal-406
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1794592141951
+status: 3
+tags: []
+user_id: root
